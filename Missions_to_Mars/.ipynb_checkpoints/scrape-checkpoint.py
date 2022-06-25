@@ -19,7 +19,7 @@
   {
    "cell_type": "code",
    "execution_count": 2,
-   "id": "491acdd4",
+   "id": "9c0b05e4",
    "metadata": {},
    "outputs": [
     {
@@ -60,8 +60,8 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 3,
-   "id": "b92e3a08",
+   "execution_count": 4,
+   "id": "95a01788",
    "metadata": {},
    "outputs": [
     {
@@ -70,9 +70,9 @@
      "text": [
       "Todays date is: June 25, 2022\n",
       "----------------------------------\n",
-      "The most recent news title is: NASA's Mars Reconnaissance Orbiter Undergoes Memory Update\n",
+      "The most recent news title is: NASA Adds Return Sample Scientists to Mars 2020 Leadership Team\n",
       "----------------------------------\n",
-      "The most recent news paragraph is: Other orbiters will continue relaying data from Mars surface missions for a two-week period.\n"
+      "The most recent news paragraph is: The leadership council for Mars 2020 science added two new members who represent the interests of scientists destined to handle and study the first samples from Red Planet.\n"
      ]
     }
    ],
@@ -118,7 +118,7 @@
   {
    "cell_type": "code",
    "execution_count": 4,
-   "id": "07fb476e",
+   "id": "34998fdc",
    "metadata": {
     "scrolled": false
    },
@@ -133,8 +133,8 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 5,
-   "id": "fb448698",
+   "execution_count": 10,
+   "id": "40b2d420",
    "metadata": {},
    "outputs": [
     {
@@ -160,13 +160,13 @@
   {
    "cell_type": "code",
    "execution_count": 6,
-   "id": "7470bc82",
+   "id": "572b9ebb",
    "metadata": {},
    "outputs": [
     {
      "data": {
       "text/plain": [
-       "'https://spaceimages-mars.com/image/featured/mars1.jpg'"
+       "'https://spaceimages-mars.com/image/featured/mars3.jpg'"
       ]
      },
      "execution_count": 6,
@@ -204,8 +204,8 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 7,
-   "id": "d1d686d7",
+   "execution_count": 3,
+   "id": "b950525e",
    "metadata": {},
    "outputs": [],
    "source": [
@@ -214,7 +214,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 8,
+   "execution_count": 4,
    "id": "0d4de54f",
    "metadata": {},
    "outputs": [
@@ -295,7 +295,7 @@
        "5            Temperature:     -87 to -5 °C      -88 to 58°C"
       ]
      },
-     "execution_count": 8,
+     "execution_count": 4,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -307,8 +307,8 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 9,
-   "id": "561858ab",
+   "execution_count": 7,
+   "id": "1b1ae6fa",
    "metadata": {},
    "outputs": [
     {
@@ -389,7 +389,7 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 10,
+   "execution_count": 8,
    "id": "afacfaa1",
    "metadata": {},
    "outputs": [
@@ -714,7 +714,7 @@
   {
    "cell_type": "code",
    "execution_count": 12,
-   "id": "81de0ca7",
+   "id": "05ef7b05",
    "metadata": {},
    "outputs": [
     {
@@ -793,8 +793,8 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 13,
-   "id": "96f5d857",
+   "execution_count": 14,
+   "id": "a1f807e8",
    "metadata": {},
    "outputs": [
     {
@@ -872,7 +872,7 @@
        "3  https://marshemispheres.com/images/valles_mari...  "
       ]
      },
-     "execution_count": 13,
+     "execution_count": 14,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -884,8 +884,8 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 14,
-   "id": "6db88061",
+   "execution_count": 20,
+   "id": "dff1c585",
    "metadata": {},
    "outputs": [
     {
@@ -905,7 +905,7 @@
        "  'https://marshemispheres.com/images/valles_marineris_enhanced.tif']]"
       ]
      },
-     "execution_count": 14,
+     "execution_count": 20,
      "metadata": {},
      "output_type": "execute_result"
     }
@@ -917,23 +917,7 @@
   {
    "cell_type": "code",
    "execution_count": null,
-   "id": "d35f8641",
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "43726a00",
-   "metadata": {},
-   "outputs": [],
-   "source": []
-  },
-  {
-   "cell_type": "code",
-   "execution_count": null,
-   "id": "bd257eb0",
+   "id": "d50be762",
    "metadata": {},
    "outputs": [],
    "source": []
@@ -956,11 +940,6 @@
    "nbconvert_exporter": "python",
    "pygments_lexer": "ipython3",
    "version": "3.9.7"
-  },
-  "vscode": {
-   "interpreter": {
-    "hash": "e2e829c83ef6dd43dbd46d55fc3d4761bb7ca0d5ea2a5d5381f4830322bfca14"
-   }
   }
  },
  "nbformat": 4,

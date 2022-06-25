@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Mars</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+    
+    <div class="jumbotron text-center">
+      <h1>Mission to Mars</h1>
+      <p><a class="btn btn-primary btn-lg" href="/mars_scrape" role="button">Scrape New Data!</a></p>
+    </div>
+    
+    <div  style="padding: 10px;">
+    <h1><b>Latest Mars News for {{ mars.Todays_date }}:</b></h1>
+    <h3><b><u>{{ mars.news_t }}</u></b></h2>
+    <h4> {{ mars.news_p }}</h4>
+    </div>
+
+  <br>
+
+<div class="container-fluid">
+
+  <div class="row justify-content-between">
+    <div class="col-lg-6">
+    <figure>
+    <h1><b><a href="{{ mars.feat_image_url }}" target="blank" role="button">Featured Mars Image:</b></h1></a>
+    <img src="{{ mars.feat_image_url }}" class="img-fluid" alt="Featured Mars Image" width="500" height="300" style="padding: 2px; float:left; border:2px solid black;">
+    </figure>
+    </div>
+
+    <div style="display: block;" class="col-lg-6">
+    <h2><b>Mars Facts:</b></h2>
+    {{ mars.mars_facts | safe }}
+    </div>
+  </div>
+</br>
+  <h1 style="text-align: center;padding: 1px;"><b> Mars Hemispheres</b></h1>
+
+  <div style="border: 2px solid grey;padding: 10px;" class="row justify-content-between">
+    
+  <div style="border: 1px solid black;padding: 2px;justify-content: center;" class="col-sm-3">
+    <figure>
+    <img src="{{ mars.hemisphere_image_urls[0]['img_url'] }}" class="img-fluid" alt="Hemisphere Image1" width="260" height="260" style="display: block;margin-left: auto;margin-right: auto;border:2px solid black;">
+    <figcaption style="text-align: center;padding: 1px;">
+    <h4><b>{{ mars.hemisphere_image_urls[0]['title'] }}</b></h4>
+    </figcaption> 
+    </figure>
+    <a class="btn btn-primary btn-md" style="display: block" href="{{ mars.hemisphere_image_urls[0]['img_url'] }}" target="blank" role="button">Open Image!</a>
+    <a class="btn btn-primary btn-md" style="display: block" href="{{ mars.download_image_urls[0]['download_url'] }}" target="blank" role="button">Download Image!</a>
+  </div>
+  
+  <div style="border: 1px solid black;padding: 2px;justify-content: center;" class="col-sm-3">
+    <figure>
+    <img src="{{ mars.hemisphere_image_urls[1]['img_url'] }}" class="img-fluid" alt="Hemisphere Image2" width="260" height="260" style="display: block;margin-left: auto;margin-right: auto; border:2px solid black;">
+    <figcaption style="text-align: center;padding: 1px;">
+    <h4><b>{{ mars.hemisphere_image_urls[1]['title'] }}</b></h4>
+    </figcaption> 
+    </figure>
+    <a class="btn btn-primary btn-md" style="display: block" href="{{ mars.hemisphere_image_urls[1]['img_url'] }}" target="blank" role="button">Open Image!</a>
+    <a class="btn btn-primary btn-md" style="display: block" href="{{ mars.download_image_urls[1]['download_url'] }}" target="blank" role="button">Download Image!</a>
+  </div>
+
+  <div style="border: 1px solid black;padding: 2px;justify-content: center;" class="col-sm-3">
+    <figure>
+    <img src="{{ mars.hemisphere_image_urls[2]['img_url'] }}" class="img-fluid" alt="Hemisphere Image3" width="260" height="260" style="display: block;margin-left: auto;margin-right: auto; border:2px solid black;">
+    <figcaption style="text-align: center;padding: 1px;">
+    <h4><b>{{ mars.hemisphere_image_urls[2]['title'] }}</b></h4>
+    </figcaption> 
+    </figure>
+    <a class="btn btn-primary btn-md" style="display: block" href="{{ mars.hemisphere_image_urls[2]['img_url'] }}" target="blank" role="button">Open Image!</a>
+    <a class="btn btn-primary btn-md" style="display: block" href="{{ mars.download_image_urls[2]['download_url'] }}" target="blank" role="button">Download Image!</a>
+  </div>
+
+  <div style="border: 1px solid black;padding: 2px;justify-content: center;" class="col-sm-3">
+    <figure>
+    <img src="{{ mars.hemisphere_image_urls[3]['img_url'] }}" class="img-fluid" alt="Hemisphere Image4" width="260" height="260" style="display: block;margin-left: auto;margin-right: auto;border:2px solid black;">
+    <figcaption style="text-align: center;padding: 1px;">
+    <h4><b>{{ mars.hemisphere_image_urls[3]['title'] }}</b></h4>
+    </figcaption> 
+    </figure>
+    <a class="btn btn-primary btn-md" style="display: block" href="{{ mars.hemisphere_image_urls[3]['img_url'] }}" target="blank" role="button">Open Image!</a>
+    <a class="btn btn-primary btn-md" style="display: block" href="{{ mars.download_image_urls[3]['download_url'] }}" target="blank" role="button">Download Image!</a>
+  </div>
+
+  </div>
+
+</div>
+<br>
+<div>
+  <div class="row">
+    <div>© Copyright Christopher Barraza 2022</div>
+  </div>
+</div>  
+</body>
+
+</html>
